@@ -1,0 +1,4 @@
+<a id="show_details" href="#" >
+<img src="<%= @movie.get('Poster') %>" alt="<%= @movie.get('Title') %>" style="width: 210px;height:310px">
+</a>
+<p style="word-wrap: break-word;"><%= @movie.get('Title') %>  (<%= @movie.get('Year') %>)</p>

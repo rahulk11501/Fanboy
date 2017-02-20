@@ -1,0 +1,50 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+
+
+background: #085078; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #085078 , #85D8CE); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #085078 , #85D8CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#container{
+  background: white;
+  margin: 25px 100px;
+  box-shadow: 0 10px 20px 0 #37474f, 0 5px 20px 0 #616161 !important;
+}
+
+#search_movie{
+  background-color: #00ae94;box-shadow: 1px 2px 0 0 #007261;color: white;
+}
+
+h1{ font-family: Georgia, arial, serif; font-size: 35px; font-weight: 600; line-height: 48px; margin: 0 0 10px; padding: 0 30px; text-align: center;
+  color: #455a64;
+}
+
+h2 { color: #7c795d; font-family: 'Source Sans Pro', sans-serif; font-size: 28px; font-weight: 400; line-height: 32px; margin: 0 0 24px; }
+
+
+.subheader { font-size: 26px; font-weight: 300; color: #ffcc66; margin: 0 0 24px; }
+
+
+div,p {font-family: Enriqueta; color: #795548; font-size: 20px; margin: 0 0 24px; }
+
+
+a { color: #ff9900; background: #fff4a3; text-decoration: none; }
+
+
+a:hover { color: #ffcc66 }
+
+.notify{
+  margin: 10px;
+  position: fixed;
+  top: 0px;
+  right: 2%;
+  width: 25%;
+  z-index: 9999;
+  border-radius: 5px;
+}

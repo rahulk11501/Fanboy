@@ -1,0 +1,16 @@
+<h1>Fanboy App </h1>
+<div id="search_container" class="row" style="margin-bottom: 0px">
+
+  <div class="form-group">
+    <div class="col-sm-5 col-sm-offset-3">
+      <input type="text" class="form-control" id="search_text" placeholder="Search by movie name">
+    </div>
+    <div class="col-sm-1">
+      <div class="btn" id="search_movie">
+          <i class="fa fa-search"></i>  Search
+      </div>
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+
+</div>
